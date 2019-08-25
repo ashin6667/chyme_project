@@ -33,6 +33,25 @@ background: linear-gradient(to left, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Fi
   border: none;
 }
 
+.navbar-default .navbar-brand {
+  color: midnightblue;
+}
+
+.navbar-nav li a {
+  color: midnightblue;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: midnightblue;
+  opacity: 0.75;
+}
+
+//Fix this: The about button color is failing to turn midnightblue//
+.navbar-default .navbar-nav > li > a:hover {
+  color: midnightblue;
+  opacity: 0.75;
+}
+
 .home-callout {
 color: midnightblue;
 margin-top: -20px;
