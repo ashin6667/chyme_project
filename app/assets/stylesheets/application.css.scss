@@ -40,6 +40,7 @@ background: linear-gradient(to left, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Fi
   font-weight: 800;
 }
 
+//nav styles
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: midnightblue;
@@ -49,6 +50,17 @@ background: linear-gradient(to left, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Fi
   }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: midnightblue;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid midnightblue;
+  &:hover, &:focus {
+    background-color: #00c6ff;
+  }
+}
+
+//home styles
 .home-callout {
 color: midnightblue;
 margin-top: -20px;
